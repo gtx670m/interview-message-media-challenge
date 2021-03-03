@@ -1,0 +1,56 @@
+.gallery {
+  background-color: #EDEDED;
+  height: 100vh;
+  .col {
+    margin-bottom: 30px;
+    .card {
+      padding: 8px;
+      &:hover {
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        cursor: pointer;
+      }
+      .card-img {
+        object-fit: cover;
+        height: 250px;
+      }
+      .card-body {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 6px 0;
+        .review {
+          margin-right: 10px;
+        }
+      }
+    }
+    .user {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      margin-top: 4px;
+      color: #5C5CFF;
+      .avatar {
+        width: 20px;
+        height: 20px;
+        margin-right: 6px;
+      }
+    }
+  }
+  .flex-box {
+    display: flex;
+  }
+  .icon {
+    width: 20px;
+    height: 20px;
+    margin: 0 4px;
+  }
+  .pagination {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 6px;
+  }
+  .spinner {
+    margin-top: 40vh;
+  }
+}
